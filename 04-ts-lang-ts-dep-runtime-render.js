@@ -1,4 +1,4 @@
-import tweets from './dist/04/tweets.js'
+import tweets from './dist/04/tweets-ts-lang-ts-dep.js'
 
 const { head, html, css } = tweets.render({
   onPreview: () => {
