@@ -1,0 +1,28 @@
+{
+	"type": "module",
+	"scripts": {
+		"build": "rollup -c rollup.config.js"
+	},
+	"devDependencies": {
+		"svelte": "^3.42.6"
+	},
+	"dependencies": {
+		"@rollup/plugin-commonjs": "^20.0.0",
+		"@rollup/plugin-node-resolve": "^13.0.5",
+		"@rollup/plugin-replace": "^3.0.0",
+		"@rollup/plugin-typescript": "^8.2.5",
+		"esbuild": "^0.13.1",
+		"glob": "^7.1.7",
+		"mdsvex": "^0.9.8",
+		"rollup": "^2.57.0",
+		"rollup-plugin-livereload": "^2.0.5",
+		"rollup-plugin-node-globals": "^1.4.0",
+		"rollup-plugin-string": "^3.0.0",
+		"rollup-plugin-svelte": "^7.1.0",
+		"rollup-plugin-svelte-draft": "^0.0.5",
+		"rollup-plugin-terser": "^7.0.2",
+		"svelte-check": "^2.2.6",
+		"svelte-preprocess": "^4.9.5",
+		"tslib": "^2.3.1"
+	}
+}
